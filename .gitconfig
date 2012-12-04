@@ -1,0 +1,26 @@
+#edit your name and email
+[user]
+name = liqi
+email = liqiping1991@gmail.com
+
+# enable color support
+[color]
+ui = auto
+
+# use vi as commit message editor
+[core]
+editor = vi
+
+# add some useful alias for quick input
+[alias]
+co = checkout
+br = branch
+ci = commit
+st = status
+unstage = reset HEAD --
+
+# this will only push the current branch to a remote branch of the same name
+[push]
+default = current
+[credential]
+	helper = cache --timeout=86400
