@@ -1,0 +1,2 @@
+Bundle 'Lokaltog/vim-powerline' 
+Bundle 'fholgado/minibufexpl.vim' 

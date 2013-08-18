@@ -97,4 +97,8 @@ set nospell
 "unbundle plugins
 UnBundle 'myusuf3/numbers.vim'
 UnBundle 'spf13/PIV'
+UnBundle 'bling/vim-airline'
 
+"bundle powerline
+let g:spf13_use_powerline=1
+let g:spf13_use_old_powerline=1
