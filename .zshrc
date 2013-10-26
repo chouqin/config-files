@@ -38,3 +38,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to yor needs...
 #export PATH=$PATH:/usr/lib/lightdm/lightdm
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
