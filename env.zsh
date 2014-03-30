@@ -1,13 +1,13 @@
 export CLICOLOR=1
 
-export WORKON_HOME=~/Envs                                                                                                                          
+export WORKON_HOME=~/Envs
 source /usr/local/bin/virtualenvwrapper.sh  
 
 # rvm
 source $HOME/.rvm/scripts/rvm
 
 # java 
-export JAVA_HOME=/usr/local/jdk
+export JAVA_HOME=$HOME/software/jdk
 export PATH=$PATH:$JAVA_HOME/bin
 
 # ant
